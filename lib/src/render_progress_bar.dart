@@ -18,7 +18,7 @@ class RenderProgressBar extends RenderBox {
     _gestureRecognizer.onUpdate =
         (details) => onDragUpdate(details.localPosition);
   }
-  double thumpPoistion = 0.5;
+  double thumpPoistion = 0.1;
   late Color _thumbColor;
   late Color _trackColor;
   late Color _pointsColor;
